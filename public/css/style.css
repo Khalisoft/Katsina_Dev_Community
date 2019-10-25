@@ -5,35 +5,129 @@ body {
 
 }
 
+.container {
+    max-width: 70%;
+    margin: auto;
+}
+
 nav {
     height: 56px;
     background: orange;
-    box-sizing: border-box;
 
 }
 
 .brand {
-    padding: 20px;
+    padding: 16px;
     font-size: 20px;
     float: left;
+
+}
+
+.brand:hover {
+    background: rgb(255, 123, 0);
+    ;
 }
 
 nav ul {
     float: right;
+    margin: 0px;
+    padding: 0px;
 }
 
 ul li {
     list-style: none;
+    display: block;
+    padding: 18px;
+    height: 100%;
+    ;
 
 
+}
+
+ul li:hover {
+    background: rgb(255, 123, 0);
 }
 
 a {
     text-decoration: none;
     font-size: 18px;
-    padding-right: 20px;
+
 }
 
-#header-text {
+h1 {
     text-align: center;
+}
+
+form {
+    max-width: 460px;
+    margin: 30px auto;
+    margin-top: 40px;
+    ;
+}
+
+form .input-item label {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+form .input-item input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#register {
+    float: right;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: 0px;
+
+}
+
+.errors {
+    margin-bottom: 10px;
+    display: none;
+    ;
+}
+
+.members-header {
+    color: blue;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+table {
+    max-width: 90%;
+    margin: auto;
+    transform-style: flat;
+    text-decoration-style: solid;
+}
+
+table th {
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+table tr {
+    padding: 30px;
+}
+
+table td {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.delete {
+    padding: 5px;
+    background: red;
+    color: #fff;
+    border: 0px;
+    margin-left: 5px;
 }
